@@ -20,17 +20,22 @@ export default {
 .box{
   display: flex;
   background-color: red;
-  width: 200px;
-  height: 200px;
-  margin: 5px;
+  width: 33%;
+  padding-top: 33%;
+  /* position: relative; */
+  margin: 8px;
 }
 
 .text{
   color: white;
-  font-size: 1.9rem;
+  position: absolute;
+  font-size: 4rem;
   font-family: helvetica;
   font-weight: bold;
-  margin: auto;
+  text-align: center;
+  top: 20%;
+  
+  
 }
 
 </style>
