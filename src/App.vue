@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Slide title="VIDEOGAME" /> <Slide title="SANDWICH"/> <Slide title="DIAMONDS" />
+    <Slide class="left" title="VIDEOGAME" /> <Slide class="middle" title="SANDWICH"/> <Slide class="right" title="DIAMONDS" />
   </div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-<div class="box">
+<div :class="this.class">
   <p class="text">{{this.title}}</p>
 </div>
 </template>
@@ -10,6 +10,9 @@ export default {
   props: {
     title: {
       type: String
+    }, 
+    class: {
+      type: String
     }
   }
 }
@@ -17,10 +20,28 @@ export default {
 
 
 <style scoped>
-.box{
+
+.left{
   display: flex;
-  background-image: radial-gradient(farthest-corner at 50% 40%, #f35 0%, #a27 100%);
-  /* background-color: red; */
+  background-image: radial-gradient(circle at bottom right, #f35, #F00);
+  width: 33%;
+  padding-top: 33%;
+  /* position: relative; */
+  margin: 8px;
+}
+
+.middle{
+   display: flex;
+  background-image: radial-gradient(circle at bottom center, #f35, #F00);
+  width: 33%;
+  padding-top: 33%;
+  /* position: relative; */
+  margin: 8px;
+}
+
+.right{
+   display: flex;
+  background-image: radial-gradient(circle at bottom left, #f35, #F00);
   width: 33%;
   padding-top: 33%;
   /* position: relative; */
