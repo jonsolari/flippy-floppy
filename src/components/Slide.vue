@@ -23,7 +23,7 @@ export default {
 
 .left{
   display: flex;
-  background-image: radial-gradient(circle at bottom right, #f35, #F00);
+  background-image: radial-gradient(circle at 70% 80%, #f35, #F00);
   width: 33%;
   padding-top: 33%;
   /* position: relative; */
@@ -32,7 +32,7 @@ export default {
 
 .middle{
    display: flex;
-  background-image: radial-gradient(circle at bottom center, #f35, #F00);
+  background-image: radial-gradient(circle at 50% 80%, #f35, #F00);
   width: 33%;
   padding-top: 33%;
   /* position: relative; */
@@ -41,7 +41,7 @@ export default {
 
 .right{
    display: flex;
-  background-image: radial-gradient(circle at bottom left, #f35, #F00);
+  background-image: radial-gradient(circle at 30% 80%, #f35, #F00);
   width: 33%;
   padding-top: 33%;
   /* position: relative; */
