@@ -23,42 +23,47 @@ export default {
 
 .left{
   display: flex;
+  flex-direction: column;
+  align-items: center;
   background-image: radial-gradient(circle at 70% 80%, #f35, #F00);
   width: 33%;
   padding-top: 33%;
-  /* position: relative; */
+  position: relative;
   margin: 8px;
 }
 
 .middle{
-   display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-image: radial-gradient(circle at 50% 80%, #f35, #F00);
   width: 33%;
   padding-top: 33%;
-  /* position: relative; */
+  position: relative;
   margin: 8px;
 }
 
 .right{
-   display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-image: radial-gradient(circle at 30% 80%, #f35, #F00);
   width: 33%;
   padding-top: 33%;
-  /* position: relative; */
+  position: relative;
   margin: 8px;
 }
 
 .text{
   color: white;
+  display: flex;
+  align-self: center;
   position: absolute;
-  font-size: 4rem;
+  font-size: 8vh;
   font-family: helvetica;
   font-weight: bold;
   text-align: center;
-  top: 20%;
-  
-  
-  
+  bottom: 30%;
 }
 
 </style>
