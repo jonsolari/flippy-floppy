@@ -19,7 +19,8 @@ export default {
 <style scoped>
 .box{
   display: flex;
-  background-color: red;
+  background-image: radial-gradient(farthest-corner at 50% 40%, #f35 0%, #a27 100%);
+  /* background-color: red; */
   width: 33%;
   padding-top: 33%;
   /* position: relative; */
@@ -34,6 +35,7 @@ export default {
   font-weight: bold;
   text-align: center;
   top: 20%;
+  
   
   
 }
