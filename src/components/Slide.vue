@@ -26,8 +26,8 @@ export default {
   flex-direction: column;
   align-items: center;
   background-image: radial-gradient(circle at 70% 80%, red, black);
-  width: 33%;
-  padding-top: 33%;
+  width: 33vw;
+  height: 30vw;
   position: relative;
   margin: .5vw;
 }
@@ -38,7 +38,7 @@ export default {
   align-items: center;
   background-image: radial-gradient(circle at 50% 80%, red, black);
   width: 33vw;
-  padding-top: 33%;
+  height: 30vw;
   position: relative;
   margin: .5vw;
 }
@@ -48,8 +48,8 @@ export default {
   flex-direction: column;
   align-items: center;
   background-image: radial-gradient(circle at 30% 80%, red, black);
-  width: 33%;
-  padding-top: 33%;
+  width: 33vw;
+  height: 30vw;
   position: relative;
   margin: .5vw;
 }
