@@ -16,6 +16,9 @@ export default {
 </script>
 
 <style>
+body{
+  background-color: black;
+}
 #app {
   display: flex;
   flex-direction: row;

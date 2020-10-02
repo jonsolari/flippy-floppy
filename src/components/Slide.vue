@@ -25,7 +25,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: radial-gradient(circle at 70% 80%, #f35, #F00);
+  background-image: radial-gradient(circle at 70% 80%, red, black);
   width: 33%;
   padding-top: 33%;
   position: relative;
@@ -36,9 +36,9 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: radial-gradient(circle at 50% 80%, #f35, #F00);
+  background-image: radial-gradient(circle at 50% 80%, red, black);
   width: 33vw;
-  padding-top: 20vh;
+  padding-top: 33%;
   position: relative;
   margin: .5vw;
 }
@@ -47,7 +47,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: radial-gradient(circle at 30% 80%, #f35, #F00);
+  background-image: radial-gradient(circle at 30% 80%, red, black);
   width: 33%;
   padding-top: 33%;
   position: relative;
@@ -56,10 +56,11 @@ export default {
 
 .text{
   color: white;
+  letter-spacing: -5px;
   display: flex;
   align-self: center;
   position: absolute;
-  font-size: 4vw;
+  font-size: 4.8vw;
   font-family: helvetica;
   font-weight: bold;
   text-align: center;
