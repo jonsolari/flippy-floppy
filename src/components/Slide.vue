@@ -29,7 +29,7 @@ export default {
   width: 33%;
   padding-top: 33%;
   position: relative;
-  margin: 8px;
+  margin: .5vw;
 }
 
 .middle{
@@ -37,10 +37,10 @@ export default {
   flex-direction: column;
   align-items: center;
   background-image: radial-gradient(circle at 50% 80%, #f35, #F00);
-  width: 33%;
-  padding-top: 33%;
+  width: 33vw;
+  padding-top: 20vh;
   position: relative;
-  margin: 8px;
+  margin: .5vw;
 }
 
 .right{
@@ -51,7 +51,7 @@ export default {
   width: 33%;
   padding-top: 33%;
   position: relative;
-  margin: 8px;
+  margin: .5vw;
 }
 
 .text{
@@ -59,7 +59,7 @@ export default {
   display: flex;
   align-self: center;
   position: absolute;
-  font-size: 8vh;
+  font-size: 4vw;
   font-family: helvetica;
   font-weight: bold;
   text-align: center;
