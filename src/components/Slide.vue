@@ -36,7 +36,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: radial-gradient(circle at 50% 80%, red, black);
+  background-image: radial-gradient(circle at 50% 70%, red, black);
   width: 33vw;
   height: 30vw;
   position: relative;
