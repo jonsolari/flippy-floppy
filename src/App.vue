@@ -2,11 +2,13 @@
   <div id="app">
 
     <div class="slides">
-    <Slide class="left" :title="this.left" /> <Slide class="middle" :title="this.center"/> <Slide class="right" :title="this.right" />
+      <Slide class="left" :title="this.left" /> 
+      <Slide class="middle" :title="this.center"/> 
+      <Slide class="right" :title="this.right" />
     </div>
 
     <div class="inputs">
-      <input type="text" class="boxes" placeholder="LEFT" @change="leftHandler">
+      <input type="text" class="boxes" placeholder="LEFT">
       <input type="text" class="boxes" placeholder="CENTER">
       <input type="text" class="boxes" placeholder="RIGHT">
     </div>
@@ -51,6 +53,7 @@ body{
   margin: 10vh auto;
   width: 20%;
   background-color: darkgrey;
+  text-align: center;
 }
 .btn{
   display: flex;
