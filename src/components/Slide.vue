@@ -29,7 +29,7 @@ export default {
   width: 33vw;
   height: 30vw;
   position: relative;
-  margin: .5vw;
+  margin: .8vw;
 }
 
 .middle{
@@ -40,7 +40,7 @@ export default {
   width: 33vw;
   height: 30vw;
   position: relative;
-  margin: .5vw;
+  margin: .8vw;
 }
 
 .right{
@@ -51,7 +51,7 @@ export default {
   width: 33vw;
   height: 30vw;
   position: relative;
-  margin: .5vw;
+  margin: .8vw;
 }
 
 .text{

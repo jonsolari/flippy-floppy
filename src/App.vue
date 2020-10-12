@@ -7,6 +7,10 @@
       <Slide class="right" :title="this.right" />
     </div>
 
+    <div class="silhouette">
+      <img src="./assets/VSD4.png">
+    </div>
+
     <div class="inputs">
       <input type="text" class="boxes" placeholder="LEFT">
       <input type="text" class="boxes" placeholder="CENTER">
@@ -40,6 +44,15 @@ export default {
 <style>
 body{
   background-color: black;
+}
+.silhouette{
+  position: absolute;
+  top: 9.8vh;
+  left: -.2vw;
+}
+img{
+  width: 100vw;
+  height: auto;
 }
 .slides{
   display: flex;
