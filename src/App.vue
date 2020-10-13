@@ -8,7 +8,7 @@
     </div>
 
     <div class="silhouette">
-      <img src="./assets/VSD4.png">
+      <img src="./assets/VSD5.png">
     </div>
 
     <div class="inputs">

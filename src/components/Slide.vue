@@ -55,7 +55,7 @@ export default {
 }
 
 .text{
-  color: white;
+  color: lightgrey;
   letter-spacing: -5px;
   display: flex;
   align-self: center;
