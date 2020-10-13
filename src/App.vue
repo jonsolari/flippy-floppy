@@ -48,11 +48,11 @@ body{
 .silhouette{
   position: absolute;
   top: 9.8vh;
-  left: -.2vw;
+  left: -.5vw;
 }
 img{
   width: 100vw;
-  height: auto;
+  /* height: auto; */
 }
 .slides{
   display: flex;
