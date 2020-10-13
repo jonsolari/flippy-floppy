@@ -47,7 +47,7 @@ body{
 }
 .silhouette{
   position: absolute;
-  top: 9.8vh;
+  top: 5.8vw;
   left: -.5vw;
 }
 img{
