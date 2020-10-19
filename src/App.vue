@@ -12,11 +12,10 @@
     </div>
 
     <div class="inputs">
-      <input type="text" class="boxes" placeholder="LEFT">
-      <input type="text" class="boxes" placeholder="CENTER">
-      <input type="text" class="boxes" placeholder="RIGHT">
+      <input type="text" class="boxes" v-model="left">
+      <input type="text" class="boxes" v-model="center">
+      <input type="text" class="boxes" v-model="right">
     </div>
-    <button type="submit" class="btn">CREATE</button>
 
   </div>
 </template>
