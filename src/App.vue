@@ -2,9 +2,9 @@
   <div id="app">
 
     <div class="slides">
-      <Slide class="left" :title="this.left" /> 
-      <Slide class="middle" :title="this.center"/> 
-      <Slide class="right" :title="this.right" />
+      <Slide :class="this.leftbox" :title="this.leftText" /> 
+      <Slide :class="this.middlebox" :title="this.centerText"/> 
+      <Slide :class="this.rightbox" :title="this.rightText" />
     </div>
 
     <div class="silhouette">
@@ -15,6 +15,13 @@
       <input type="text" class="boxes" v-model="left">
       <input type="text" class="boxes" v-model="center">
       <input type="text" class="boxes" v-model="right">
+    </div>
+
+    <div class="redblue">
+      <input type="radio" name="color" id="red" v-model="selected" value="red" checked>
+      <label for="red" class="slidecolor">Red</label>
+      <input type="radio" name="color" id="blue" v-model="selected" value="blue">
+      <label for="blue" class="slidecolor">Blue</label>
     </div>
 
   </div>
@@ -30,11 +37,32 @@ export default {
   components: {
     Slide
   }, 
+  computed: {
+    leftText(){
+      return this.left.toUpperCase();
+    },
+    centerText(){
+      return this.center.toUpperCase();
+    },
+    rightText(){
+      return this.right.toUpperCase();
+    },
+    leftbox(){
+      return ('left' + this.selected);
+    },
+    middlebox(){
+      return ('middle' + this.selected);
+    },
+    rightbox(){
+      return ('right' + this.selected);
+    }
+  },
   data(){
     return{
       left: 'VIDEOGAME',
       center: 'SANDWICH',
-      right: 'DIAMONDS'
+      right: 'DIAMONDS',
+      selected: 'red'
     }
   }
 }
@@ -72,5 +100,12 @@ img{
   margin: auto;
   height: 5vh;
   align-items: center;
+}
+.slidecolor{
+  color: white;
+}
+.redblue{
+  display: flex;
+  margin: auto;
 }
 </style>

@@ -21,7 +21,7 @@ export default {
 
 <style scoped>
 
-.left{
+.leftred{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,7 +32,18 @@ export default {
   margin: .8vw;
 }
 
-.middle{
+.leftblue{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: radial-gradient(circle at 70% 80%, steelblue, black);
+  width: 33vw;
+  height: 30vw;
+  position: relative;
+  margin: .8vw;
+}
+
+.middlered{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -43,7 +54,18 @@ export default {
   margin: .8vw;
 }
 
-.right{
+.middleblue{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: radial-gradient(circle at 50% 70%, steelblue, black);
+  width: 33vw;
+  height: 30vw;
+  position: relative;
+  margin: .8vw;
+}
+
+.rightred{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -53,6 +75,18 @@ export default {
   position: relative;
   margin: .8vw;
 }
+
+.rightblue{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: radial-gradient(circle at 30% 80%, steelblue, black);
+  width: 33vw;
+  height: 30vw;
+  position: relative;
+  margin: .8vw;
+}
+
 
 .text{
   color: lightgrey;
