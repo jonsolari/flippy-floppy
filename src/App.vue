@@ -472,6 +472,7 @@ img{
 .input{
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin: 1rem 10%;
   line-height: 2rem;
 }
